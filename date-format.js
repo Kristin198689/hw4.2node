@@ -7,6 +7,7 @@
 // console.log(formattedDate3)
 
 // variant2
+const moment = require("moment");
 const now = moment();
 const formattedDate1 = now.format(`DD-MM-YYYY`);
 const formattedDate2 = now.format(`MMM Do YY`);
